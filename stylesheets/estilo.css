@@ -1,0 +1,324 @@
+ body {
+        background-color: dimgray;
+        margin: 0;
+    }
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    header {
+        display: inline;
+        flex-direction: column;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-left: 0;
+    }
+    
+    header img {
+        display: flex;
+        flex-direction: column;
+       margin-left: 5%;
+       width: 12%;
+    }
+    
+    .cod {
+        display: block;
+        flex-direction: row;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        font-size: 13pt;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .tip {
+        display: block;
+        flex-direction: row;
+        margin-left: 2%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .nam {
+        display: block;
+        flex-direction: row;
+        margin-left: 2%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+       color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .qnt {
+        display: block;
+        flex-direction: row;
+        margin-left: 49%;
+        margin-top: -4.9%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .pc {
+        display: block;
+        flex-direction: row;
+        margin-left: 75%;
+        margin-top: -4.9%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    #cod {
+        width: 100px;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    #tip {
+        width: 190px;
+        border-radius: 5px;
+    }
+    
+    #nam {
+       width: 73%;
+        border-radius: 5px;
+    }
+    
+    #pc {
+        width: 80px;
+        border-radius: 5px;
+    }
+    
+    #qnt {
+        width: 65px;
+        border-radius: 5px;
+    }
+    
+    h1,
+    h2 {
+        text-align: center;
+        color: orange;
+                font-family: sans-serif, cursive;
+
+    }
+
+    
+    article {
+        display: block;
+        flex-direction: row;
+        width: 52%;
+        background-color: gainsboro;
+        margin-left: 22%;
+        margin-top: 3%;
+        height: 450px;
+        border-radius: 5px;
+    }
+    
+    #cpm,
+    #vnd {
+        margin-left: 37%;
+        font-size: 12pt;
+        color: black;
+    }
+    
+    #cpm {
+        margin-top: -5.2%;
+        margin-left: 50%;
+    }
+    
+    #coment {
+        width: 90%;
+        border-radius: 0 0 5px 5px;
+        margin-left: 4%;
+        height: 50px;
+    }
+    .coment{
+        margin-top: 6%;
+        font-size: 13pt;
+        color: black;
+        font-family: sans-serif, cursive;
+        margin-left: 2%;
+    }
+    
+    #save, #search, #clear{
+        width: 20%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+.salvar, .pesquisa, .limpa{
+    display: none;
+}
+@media screen and (max-width: 650px) {
+    
+     #wrapper{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+    }
+    article {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        background-color: ghostwhite;
+        margin-left: 15%;
+        margin-top: 3%;
+        height: 475px;
+        border-radius: 5px;
+    }
+   
+    .cod {
+        display: flex;
+        flex-direction: column;
+        margin-left: -145%;
+        margin-top: 30%;
+        margin-bottom: 2%;
+        font-size: 13pt;
+       color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .tip {
+        display: flex;
+        flex-direction: column;
+      margin-left: -145%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .nam {
+        display: flex;
+        flex-direction:column;
+        margin-left: -145%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .qnt {
+        display: flex;
+        flex-direction: column;
+        margin-left: -75%;
+        margin-top: -22.5%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+    
+    .pc {
+        display: flex;
+        flex-direction: column;
+        margin-left: -15%;
+        margin-top: -22.5%;
+        font-size: 13pt;
+        margin-bottom: 2%;
+        color: black;
+        font-family: sans-serif, cursive;
+    }
+     #cod {
+        width: 27%;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    #tip {
+        width: 23%;
+        border-radius: 5px;
+    }
+    
+    #nam {
+        width: 70%;
+        border-radius: 5px;
+    }
+    
+    #pc {
+        width: 35%;
+        margin-left: -1%;
+        border-radius: 5px;
+    }
+    
+    #qnt {
+        width: 26%;
+        margin-left: -1%;
+        border-radius: 5px;
+    }
+    h1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -212%;
+        text-align: center;
+                color: orange;
+                font-family: sans-serif, cursive;
+
+    }
+    h2 {
+    
+       margin-left: 20%;
+        display: inline-table;
+        color: orange;
+                font-family: sans-serif, cursive;
+
+    }
+    #cpm,
+    #vnd {
+        margin-left: -130%;
+        font-size: 12pt;
+        color: black;
+    }
+    #vnd {
+        margin-top: -8%;
+         margin-left: -100%;
+    }
+    #cpm {
+        margin-top: -16%;
+        margin-left: -60%;
+    }
+    #coment {
+        width: 65%;
+        border-radius: 0 0 5px 5px;
+        margin-left: 1.9%;
+        height: 50px;
+    }
+    .coment{
+        display: flex;
+        flex-direction: column;
+        font-size: 13pt;
+        color: black;
+        font-family: sans-serif, cursive;
+        margin-left: -145%;
+    }
+    
+    #save, #search, #clear{
+            display:none;
+    }
+    
+   
+    .salvar{
+        display:inline-block ;
+        flex-direction: row;
+        width: 20%;
+         margin-top: 5%;
+         margin-left: -120%;
+    }
+    .pesquisa{
+        display:inline-block ;
+        flex-direction: row;
+        width: 20%;
+         margin-top: -5%;
+         margin-left: 20%;
+    }
+     .limpa {
+        display:inline-block ;
+        flex-direction: row;
+        width: 20%;
+          margin-left: 20%;
+    }
+}
+    
