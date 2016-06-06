@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CHANGE-ME</title>
+    <link href='estilo.css' rel='stylesheet' type='text/css'>
+    <script src="valida.js"></script>
+    
+</head>
+
+<body>
+
+    <section id="wrapper">
+        <header> <img src="img/logotipo.png" />
+        </header>
+        <article>
+            <h2> Cadastro de Produto</h2>
+            <form action="cadastro.php" method="post" name="cadastro" onSubmit="return enviardados();">
+                <p class="cod">Código do Produto
+                    <input type="text" name="cod_merc" id="cod">
+                </p>
+                <p class="nam">Nome do Produto
+                    <input type="text" name="nome" id="nam">
+                </p>
+
+                <p class="tip">Tipo de Produto
+                    <input type="text" name="tipo" id="tip">
+                </p>
+
+                <p class="qnt"> Quantidade 
+                    <input type="number" name="qnt" id="qnt">
+                </p>
+
+                <p class="pc"> Preço
+                    <input type="text" name="preco" id="pc">
+                </p>
+                <p>
+                    <h1>Tipo de Negócio</h1>
+                    <p id="vnd"> Vendas
+                        <input type="radio" name="negocio">
+                    </p>
+                    <p id="cpm">Compras
+                        <input type="radio" name="negocio">
+                    </p>
+                    <p class="coment">Comentários
+                        <br/>
+                        <textarea name="msg" id="coment"></textarea>
+                    </p>
+                    <p>
+                        <img src="img/SALVAR.bmp" class="salvar"/><input type="submit" name="gravar" value="Gravar" id="save">
+                        <img src="img/pesquisa.png" class="pesquisa"/><input type="submit" name="pesquisa" value="Pesquisar.." id="search">
+                        <img src="img/clean-space-icone.jpg" class="limpa"/><input type="reset" name="limpar" value="Limpar" id="clear">
+                        <p>
+
+            </form>
+        </article>
+    </section>
+</body>
+
+</html>
